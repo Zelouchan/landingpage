@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    font-family: "poppins";
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.head {
+    justify-content: start;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+li {
+    text-decoration: none;
+    display: flex;
+    color: #f9faf8;
+    justify-text: end;
+
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 15px; 
+} 
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.left {
+    display: inline;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: start;
+    font-size: 18px;
+
+}
+
+.outline {
+    border:#f9faf8;
+    height: 150px;
+    width: 300px;
+    background-color: #696b6d;
+    color: #f9faf8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    flex-wrap: ;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.quote {
+    display: inline-flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quotation {
+    display: flex;
+    text-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    font-weight: lighter;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 30px;
+    background-color: #3882f6;
+    margin: 50px;
+    width: 400px;
+    align-content: center;
+}
+
+.yup {
+    display: flex;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+
+}
