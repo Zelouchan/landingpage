@@ -1,11 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: stretch;
     margin: 0px;
-    flex: 1;
-    width: 100%;
-    height: 100%;
+    /* flex: 1; */
+    /* width: 100%;
+    height: 100%; */
     font-family: "poppins";
     
 }
@@ -14,14 +14,18 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1f2937;
-    justify-content: space-evenly;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
 }
 
 .head {
     justify-content: start;
     font-size: 24px;
     color: #f9faf8;
+    width: 35%;
+    display: flex;
 }
 
 a {
@@ -29,28 +33,23 @@ a {
     color: #f9faf8;
 }
 
-li {
-    text-decoration: none;
-    display: flex;
-    color: #f9faf8;
-    justify-text: end;
-
-}
-
 ul {
     text-decoration: none;
     display: flex;
-    list-style: none;
-    gap: 15px; 
+    list-style: none; 
+    width: 35%;
+    justify-content: end;
+    gap: 20px;
 } 
 
 .one {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #1f2937;
     color: #f9faf8;
     flex: 1;
+    padding: 0%;
 }
 
 .left {
@@ -59,6 +58,9 @@ ul {
     text-wrap: wrap;
     justify-content: start;
     font-size: 18px;
+    width: 35%;
+    margin: 30px 10px;
+    color: #e5e7eb;
 
 }
 
@@ -71,10 +73,13 @@ ul {
     text-align: center;
     display: flex;
     justify-content: center;
+    width: 35%;
+    margin: 30px 10px;
 }
 
 .two {
-    flex-wrap: ;
+    flex-wrap: wrap;
+
 }
 
 .title {
@@ -87,31 +92,63 @@ ul {
     display: inline-flex;
     background-color: #e5e7eb;
     justify-content: center;
-    text-align: center;
+    text-align: right;
     align-items: center;
     flex-direction: column;
+    font-size:24px;
+    padding-bottom: 40px;
 }
+
+.signed {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    width: 45%;
+}
+
 .quotation {
     display: flex;
     text-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-    font-weight: lighter;
+    text-align: left;
+    width: 45%;
+    font-weight: 400px;
+    font-size: 32px;
+    padding: 40px;
+    padding-bottom: 0px;
+    font-style: italic;
+
 }
 
 .call {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction: row;
     padding: 20px 30px;
     background-color: #3882f6;
     margin: 50px;
-    width: 400px;
-    align-content: center;
+    width: 50%;
+    color: #f9faf8;
+    align-self: center;
+    
 }
 
 .yup {
     display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-left: 8%;
+    align-content: center;
+    justify-content: center;
+    border-color: #f9faf8;
+   
+}
+
+.action {
+    width: 65%;
+    text-align: left;
+    border-color: #f9faf8;
+    padding-left: 30px;
+    align-self: center;
+    justify-self: center;
 }
 
 .footer {
@@ -123,8 +160,11 @@ ul {
 
 button {
     width: 150px;
+    height: 35px;
     padding: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+    align-items: center;
+    border-radius: 12px;;  
 
 }
