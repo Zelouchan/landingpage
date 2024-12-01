@@ -4,7 +4,6 @@ body {
     justify-content: stretch;
     margin: 0px;
     font-family: "poppins";
-    
 }
 
 .header {
@@ -82,12 +81,15 @@ ul {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    /* max-width: 80%; */
+    flex: 1;
 }
 
 .information {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    flex: 1;
 }
 
 .boxes {
@@ -96,6 +98,8 @@ ul {
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -204,7 +208,7 @@ button {
     color: #f9faf8;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;;  
+    border-radius: 12px;
     margin-top: 10px;
     border-style: solid 2px;
     border-color: #f9faf8;
