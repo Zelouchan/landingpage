@@ -1,9 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
     margin: 0px;
     font-family: "poppins";
+    height: 100vh;
 }
 
 .header {
@@ -50,9 +50,9 @@ ul {
 }
 
 .left {
-    display: inline;
+    /* display: inline; */
     flex-direction: column;
-    text-wrap: wrap;
+    word-wrap: wrap;
     justify-content: start;
     font-size: 18px;
     width: 35%;
@@ -81,7 +81,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    /* max-width: 80%; */
+    max-width: 80%;
     flex: 1;
 }
 
@@ -94,7 +94,7 @@ ul {
 
 .boxes {
     display: flex;
-    text-wrap: wrap;
+    word-wrap: wrap;
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
@@ -213,5 +213,4 @@ button {
     border-style: solid 2px;
     border-color: #f9faf8;
     font-size: 18px;
-
 }
